@@ -38,8 +38,8 @@
         display: flex;
         gap: 10px;
         align-items: center;
-        font-size: 20px;
-        padding: 15px 40px;  // TOP BOTTOM = 15px,  RIGHT LEFT = 40px
+        font-size: 17px;
+        padding: 8px 24px 8px 20px;  // TOP BOTTOM = 15px,  RIGHT LEFT = 40px
         border-radius: 5px;
         outline: none;
         border: none;
@@ -47,18 +47,18 @@
         cursor: pointer;
 
         mat-icon {
-          transform: scale(1.25);
+          transform: scale(1);
         }
       }
 
       button.play-button {
         span {
           font-weight: 600;
-          font-size: 24px;
+          font-size: 17px;
         }
 
         mat-icon {
-          transform: scale(2.5);
+          transform: scale(2);
         }
       }
 
@@ -70,7 +70,7 @@
         }
 
         span {
-          font-size: 24px;
+          font-size: 17px;
           font-weight: 500;
           color: white;
         }
@@ -172,4 +172,3 @@ ul {
     }
   }
 }
-
